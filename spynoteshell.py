@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#    Copyright (C) <2016>  <M U Suraj>
+#    Copyright (C) <2016> 
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
 #    with this program; if not, write to the Free Software Foundation, Inc.,
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-# Created by _B4ckp0r7
+# Created by B4ckp0r7
 
 import os
 import re
