@@ -33,7 +33,7 @@ def banner():
       |_| |___|                                                                                                                    
 
 %s				
-'''%(pyc.cLine('LIGHTBLUE', "Spy Note Shell, created by _b4ckp0rt7"))
+'''%(pyc.cLine('LIGHTBLUE', "Spy Note Shell, created by H0nus"))
 
 mainapk=None
 def initstuff():
